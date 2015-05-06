@@ -1,9 +1,9 @@
 # Overview
 Very simple web service that keeps track of an internal current version code (build number) for a given app. Provides an easy-to-use rest API that allows:
-* GET /versionCode/<app-id> - Current version code for a given app
-* GET /versionCode/<app-id>/next - Increment, then retrieve the current version code for a given app
-* DELETE /versionCode/<app-id> - Removes app data from the database
-* PUT /versionCode/<app-id>/<version-code> - Sets the app version code with the given value
+* GET /versionCode/&lt;app-id&gt; - Current version code for a given app
+* GET /versionCode/&lt;app-id&gt;/next - Increment, then retrieve the current version code for a given app
+* DELETE /versionCode/&lt;app-id&gt; - Removes app data from the database
+* PUT /versionCode/&lt;app-id&gt;/&lt;version-code&gt; - Sets the app version code with the given value
  
 
 
