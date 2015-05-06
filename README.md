@@ -35,6 +35,7 @@ $ ./version-code-service -port 8081
 # Dependencies
   - [Go]
   - [go-restful]
+  - [mgo]
   - [MongoDB]
 
 # License
@@ -46,4 +47,5 @@ version-code-service is available under the MIT license. See the LICENSE file fo
 [mongod]:http://docs.mongodb.org/manual/reference/program/mongod/
 [Go installation]:https://golang.org/doc/install#install
 [go-restful]:https://github.com/emicklei/go-restful
+[mgo]:https://labix.org/mgo
 [MongoDB]:https://www.mongodb.org/
