@@ -12,7 +12,7 @@ You must also have [MongoDB installed] and its daemon ([mongod]) up and running.
 
 Then to get and build this project in the terminal type:
 ```sh
-$ go get github.com/Mindera/version-code-service
+$ go get github.com/mindera/version-code-service
 $ go install github.com/mindera/version-code-service
 ```
 The generated binary file can be found at:
