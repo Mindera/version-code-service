@@ -4,7 +4,6 @@ import (
 	"flag"
 	"fmt"
 	"github.com/mindera/version-code-service/vccounter"
-	"log"
 	"net/http"
 )
 
@@ -24,5 +23,5 @@ func main() {
 	vc := vccounter.VersionCodeService{&avcDataStore}
 	vc.Register()
 
-	log.Fatal(http.ListenAndServe(fmt.Sprintf(":%d", *serverPortPtr), nil))
+	http.ListenAndServe(fmt.Sprintf(":%d", *serverPortPtr), nil)
 }
